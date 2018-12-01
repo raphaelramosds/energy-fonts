@@ -1,0 +1,112 @@
+
+/*Responsive Configurations*/
+*{-webkit-transition: .2s all;transition: .2s all;}
+body{margin:0 auto;padding:0;}
+
+/*Design Navbar*/
+li > a {color:white;}
+
+/*Colocar a mesma cor tanto para o main-container como para o container-logo !*/
+
+.box{width:80%;max-width: 1000px;}
+
+/*Config Botões*/
+.btn {border: none; /* Remove borders */color: white; padding: 14px 28px; cursor: pointer;}
+
+.botao{border: none; padding: 14px 28px; cursor:pointer; color:white;border-radius: 5px;	}
+.warning {background-color: #ff9800;} 
+.warning:hover {background: #e68a00;color:white;}
+
+.danger {background-color: #9E2A47;color:white;} 
+.danger:hover, .danger:visited , .danger:link{background: #BF3356;color:white;}
+
+.success {background-color: #00B295;color:white;} 
+.success:hover, .success:visited , .success:link{background: #;color:white;}
+
+
+.buttonSlide{transition: .2s all;}
+.buttonSlide:hover{transform: scale(1.5);-webkit-transform: scale(1.5);}
+
+/*Button Back to top*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+.btn-top{border-radius:50px; background-color: #2191FB;}
+.btn-top:hover{opacity: .5;}
+
+/*Rodapé*/
+.links{text-align: center;}
+.linkDesign{color: gray;}
+.linkDesign:hover{text-decoration: none;}
+
+html,body{height: 100%;}
+
+.page-wrap{min-height: 100%;}
+
+.page-wrap:after{content:"";display:block;}
+.rodape{margin-top: 80px;}
+
+/*Text area e inputs*/
+
+#input-config{
+	border: none;
+	border-radius: 2px;
+	background: rgba(0,0,0, .1);
+	margin: 0 auto;
+}
+
+/*Design dos Títulos e subtítulos*/
+
+.titleMain{color:#1e90ff;}
+.link-design, .subtitle{color:#0b5d1e;}
+
+/*Design da Legenda das imagens*/
+
+.title-caption{font-weight: bold; color: #2F98E2;}
+
+
+/*Media queries*/
+
+@media(max-width:960px){
+	.logo-s-12{text-align: center;}
+	.btn-s-12{width:100%;}
+}
+
+@media(max-width:615px){
+	.box-s-12{display:none;}
+	.logo-s-12{text-align: center;}
+	/*Em dispositivos moveis, faça desaparecer o carrossel de imagens*/
+	.box-carousel {display: none; }
+	.btnFluid{width: 100%;}
+	nav{text-align: center;}
+}
+
+@media (max-width: 770px){
+	a{text-align: center;}
+	.desc-align-center{text-align: center;}
+}
+
+.parallax{    /* The image used */
+    background-image: url("../images/sustain.jpg");
+	color: white;
+	text-shadow: 1px 1px #1c1c1c;
+    margin-bottom: 25px;
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+/**/
+.borderTitle{border: none; padding: 14px 28px; color:white;background-color: #1e90ff;-webkit-transition: all .2s;}
+.borderTitle:hover{opacity: .7; padding-left: 1px;}

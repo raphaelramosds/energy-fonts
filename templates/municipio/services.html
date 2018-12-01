@@ -1,0 +1,207 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="../../js/jquery-3.2.1.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="../../bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body>
+  <style>
+    p{text-align: justify;font-size: 20px;}
+    .border-image{border-radius: 10px;margin-top: 20px;margin-bottom: 20px;}
+    /*Espaçamento de títulos*/
+    .title-space-bottom{margin-top: 30px;margin-bottom: 30px;}
+    /*Design Legendas*/
+    .title-caption{font-weight: bold;}
+    @media only screen and (max-width: 610px){.image-box{display:none;}}
+    .noticeMain{color:rgba(155,155,155,.6);}
+  </style>
+  <!-- Header -->
+<nav class="navbar navbar-default " role="navigation">
+    <div class="container">
+      <div class="navbar-header ">
+        <a class="navbar-brand" href="../../index.html">
+          <img src="../../images/logomarca.png" style="max-width: 170px;height:40px;margin-top: -10px;">
+        </a>
+        <a href="../../index.html" class="navbar-brand">Município Sustentável</a>
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-container">
+          <span class="sr-only">Mostrar e Esconder Menu</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-container">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../../index.html">Início</a></li>
+
+          <li role="presentation" class="dropdown">
+            <!-- Título Drodpdown -->
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" >O Município<span class="caret"></span></a>
+            <!-- Começo da -->
+            <ul class="dropdown-menu item-hover">
+              <li><a href="../anexos/maquete.html">Anexos do desenvolvimento do Projeto</a></li>
+              <li><a href="../../templates/municipio/strategic.html">Todo o Planejamento Estratégico</a></li>
+              <li><a href="../../templates/municipio/the+5w2h.html">Elaboração do projeto</a></li>
+              <li><a href="../../templates/municipio/perspectives.html">Perspectivas estruturais do Município</a></li>
+              <li><a href="../../templates/municipio/services.html">Serviços</a></li>
+            </ul>
+          </li>
+
+          <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Conceitos<span class="caret"></span></a>
+            <ul class="dropdown-menu item-hover">
+            <li><a href="../../templates/sustentabilidade/cidades-sustentaveis.html" >Cidades Sustentáveis</a></li>
+            <li><a href="../../templates/fontes-energias/introducao.html">Introdutório as fontes de Energia</a></li>
+            <li><a href="../../templates/sustentabilidade/sustentabilidade.html">Conceito de Sustentabilidade</a></li>
+            </ul>
+          </li>
+          <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Cidades e Fontes de Energia<span class="caret"></span></a>
+            <ul class="dropdown-menu item-hover">
+            <li ><a href="../../templates/fontes-energias/biomassa.html">Biomassa</a></li>
+            <li ><a href="../../templates/fontes-energias/eolica.html">Eólica</a></li>
+            <li ><a href="../../templates/fontes-energias/hidreletrica.html">Hidrelétrica</a></li>
+            <li ><a href="../../templates/fontes-energias/nuclear.html">Nuclear</a></li>
+            <li ><a href="../../templates/fontes-energias/solar.html">Solar</a></li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+  
+  <div class="page-wrap">
+    <div class="container-fluid box">
+        <div class="jumbotron" style="border-radius:10px;">
+          <h2>Serviços presentes no Município</h2>
+          <blockquote>
+            <p>Já pensou um lugar que não tem nenhum tipo de planejamento para seus serviços públicos? O nosso município com certeza não é o caso!</p>
+          </blockquote>
+          <a href="#heal" class="link-scroll link-design"><span class="label label-primary">Saúde</span></a>
+          <a href="#educ" class="link-scroll link-design"><span class="label label-primary">Educação</span></a>
+          <a href="#seg" class="link-scroll link-design"><span class="label label-primary">Segurança</span></a>
+          <a href="#basic" class="link-scroll link-design"><span class="label label-primary">Saneamento básico</span></a>
+          <a href="#orna" class="link-scroll link-design"><span class="label label-primary">Ornamentação</span></a>
+          <a href="#pav" class="link-scroll link-design"><span class="label label-primary">Pavimentação e transporte</span></a>
+        </div>
+    </div>
+    <div class="container-fluid box">
+      <p>Os serviços da Município serão subdivididos por setores para melhor gerenciamento e eficiência da garantia de qualidade. Eles poderão ser centralizados ou descentralizados, isto é, com o próprio governo agindo, ou com terceiros permitidos devido concessões. O governo prestará todos os serviços essenciais do Município, mas qualquer empresa que quiser se instalar terá de conseguir liberação. Para conseguir uma concessão ou outorga governamental, a empresa em questão terá de comprovar que seus serviços possuem o nível qualidade maior que o padrão estabelecido pelo governo do Município, podendo comprovar que pode atender à demanda dos cidadãos e não possuir histórico de práticas ilegais, como subornos. </p>
+        
+      <div id="heal" class="" style="width:100%; border:none;border-top-right-radius: 12px; border-top-left-radius: 12px;color:#1e90ff;"><h3 style="text-align: justify;">1) Saúde</h3></div>
+      <div style="margin-bottom: 10px;padding: 10px;">
+        <p style="color: rgba(0,0,0,.5)">O Município contará com a construção de postos de saúde, prontos-socorros e grandes hospitais, que operarão em diversos setores da medicina, atuando de forma completa em todos os níveis de necessidade, da pediatria até as grandes cirurgias, assim como o atendimento em diferentes áreas médicas. Os hospitais serão distribuídos de acordo com a população, e a zona rural terá, especialmente, mais veículos para a movimentação rápida e segura dos pacientes aos grandes hospitais.</p>
+      </div>
+
+
+      <div class="" id="educ" style="width:100%; border:none;border-top-right-radius: 12px; border-top-left-radius: 12px;color:#1e90ff;"><h3 style="text-align: justify;">2) Educação</h3></div>
+      <div  style="margin-bottom: 10px;padding:10px;">
+        <p style="color: rgba(0,0,0,.5)">Serão construídas creches, escolas e universidades de alto nível, sendo também permitido que algumas empresas terceiras atuem no ramo. Todas as escolas terão a mesma ementa, para que, caso determinada família tenha que se mudar para longe de seu bairro ou zona, o estudante não acabe sendo prejudicado</p>
+      </div>
+
+
+      <div class=""  id="seg" style="width:100%; border:none;border-top-right-radius: 12px; border-top-left-radius: 12px;color:#1e90ff;"><h3 style="text-align: justify;">3) Segurança</h3></div>
+      <div  style="margin-bottom: 10px;padding:10px;">
+        <p style="color: rgba(0,0,0,.5)">Existirão delegacias gerais e específicas, como a delegacia da mulher, além do policiamento eficiente, com viaturas que possam atender a todo o Município e um sistema de vigilância por câmeras que visa garantir a segurança das ruas. O policiamento preventivo funcionará todos os dias e noites, com patrulhas de tocaia em pontos estratégicos. Na zona rural, haverá uma delegacia de polícia específica para o controle de desmatamento e caça ilegal;.</p>
+      </div>
+
+      <div class=""  id="basic" style="width:100%; border:none;border-top-right-radius: 12px; border-top-left-radius: 12px;color:#1e90ff;"><h3 style="text-align: justify;">4) Saneamento básico</h3></div>
+      <div style="margin-top: 10px;padding: 10px;">
+        <p style="color: rgba(0,0,0,.5)">Todas as moradias terão acesso a água, energia e Wi-fi, as ruas terão a iluminação adequada e o sistema de esgoto será um moderno sistema onde o risco de enchentes e rompimento das tubulações é mínimo. Também haverá um sistema que capta a água da chuva através de canos e a usará para a irrigação e abastecimento das plantas e casas. A coleta de lixo será realizada regularmente e será desenvolvido um sistema especial e avançado de reciclagem.</p>
+      </div>
+
+      <div class="" id="orna" style="width:100%; border:none;border-top-right-radius: 12px; border-top-left-radius: 12px;color:#1e90ff;"><h3 style="text-align: justify;">5) Ornamentação</h3></div>
+      <div   style="margin-top: 10px;padding: 10px;">
+        <p style="color: rgba(0,0,0,.5)">Conta com a limpeza e arborização do Município, criação de jardins, praças públicas com academias gratuitas e espaços infantis, bibliotecas públicas, pinturas das ruas, faixas de pedestres, reparação de patrimônios, a arte das ruas (existirão ruas e determinados bairros onde grafiteiros licenciados poderão expressar sua arte) e etc.</p>
+      </div>
+
+      <div class="" id="pav" style="width:100%; border:none;border-top-right-radius: 12px; border-top-left-radius: 12px;color:#1e90ff;"><h3 style="text-align: justify;">6) Pavimentação e transporte</h3></div>
+      <div style="margin-top: 10px;padding: 10px;">
+        <p style="color: rgba(0,0,0,.5)">Estarão sempre em dia e de forma eficiente os serviços de pavimentação, reparo e calçamento das ruas, avenidas, ferrovias, pontes e sinalização do trânsito. Serão implantados diversos terminais de transporte público coletivo em pontos estratégicos para a maior eficiência na mobilidade da população. Na zona urbana, as linhas de ônibus terão sempre de ter, no máximo, 15 minutos de diferença entre a passagem de um veículo e o outro, as paradas serão bem estruturadas e confortáveis, contando com banheiros próximos. E ainda, com o objetivo de evitar congestionamentos e paradas obrigatórias em horários de pico, assim como a preservação do meio ambiente. Serão implantadas políticas de incentivo ao uso do transporte coletivo. Na zona rural, a frequência dos ônibus será um pouco menor, mas eles contarão com carros do governo para o transporte para o Município em casos de necessidade.</p>
+      </div>
+
+
+    </div>
+  </div>
+  <a id="back-to-top" href="#" class="btn  btn-lg back-to-top btn-top" role="button" title="Clique para retornar ao topo" data-toggle="tooltip" data-placement="left" style="transition: .2s all;"><span class="glyphicon glyphicon-chevron-up" style="color:white;"></span></a>  
+  <script src="../../js/topage.js"></script>
+  <script src="../../js/scroll.js"></script>
+  <footer class="container-fluid rodape " style="background: rgba(0,0,0,.045); color:#666;text-align: justify;">
+      <!-- Linha 1 -->
+      <div class="row links">
+        <div class="col-sm-12" style="padding: 20px;">
+          <small>
+            <span class=" glyphicon glyphicon-flag"></span>
+            <a href="../../templates/sustentabilidade/sustentabilidade.html" class="linkDesign">Sustentabilidade |</a>
+            <a href="../../templates/fontes-energias/solar.html" class="linkDesign">Energia Solar |</a>
+            <a href="../../templates/fontes-energias/eolica.html" class="linkDesign">Energia Eólica |</a>
+            <a href="../../templates/fontes-energias/biomassa.html" class="linkDesign">Energia da Biomassa |</a>
+            <a href="../../templates/fontes-energias/hidreletrica.html" class="linkDesign">Energia Hidrelétrica |</a>
+            <a href="../../templates/fontes-energias/nuclear.html" class="linkDesign">Energia Nuclear |</a>
+          </small>
+          <hr>
+        </div>
+      </div>
+      <!-- Linha2 -->
+      <div class="row" style="width:900px; margin: 0 auto">
+        <div class="col-sm-6" style="padding: 10px;">
+          <p style="font-weight: bold;">Motive-se:</p>
+          <p style="border-left: 2px solid rgba(0,0,0,.3);padding:10px;"><i>A base de toda a sustentabilidade é o
+              desenvolvimento humano que deve contemplar um melhor relacionamento do homem com os semelhantes e a
+              Natureza.</i></p>
+          <p style="font-size: 12px;">Essa bela frase foi dita por: <small>Nagib Anderáos Neto</small></p>
+          <p style="margin-top: 30px;font-weight: bold;">Município Sustentável e Fontes de Energia</p>
+          <small>Clique em algum desses ícones a baixo...</small>
+          <br>
+          <a href="../../templates/fontes-energias/solar.html" class="linkDesign" title="Energia Solar">
+            <img style="height: 50px;margin-top: 15px;margin-bottom: 15px;" src="../../images/icon-solar.png" alt="">
+          </a>
+  
+          <a href="../../templates/fontes-energias/eolica.html" class="linkDesign" title="Energia Eólica">
+            <img style="height: 50px;margin-top: 15px;margin-bottom: 15px;margin-left: 10px;" src="../../images/icon-eolic.png"
+              alt="">
+          </a>
+          <a href="../../templates/fontes-energias/biomassa.html" class="linkDesign" title="Biomassa">
+            <img style="height: 50px;margin-top: 15px;margin-bottom: 15px;margin-left: 10px;" src="../../images/icon-bio.png"
+              alt="">
+          </a>
+  
+          <a href="../../templates/fontes-energias/hidreletrica.html" class="linkDesign" title="Energia Hidrelétrica">
+            <img style="height: 50px;margin-top: 15px;margin-bottom: 15px;margin-left: 10px;" src="../../images/icon-water.png"
+              alt="">
+          </a>
+  
+          <a href="../../templates/fontes-energias/nuclear.html" class="linkDesign" title="Energia Nuclear">
+            <img style="height: 50px;margin-top: 15px;margin-bottom: 15px;margin-left: 10px;" src="../../images/icon-nuclear.png"
+              alt="">
+          </a>
+        </div>
+        <div class="col-sm-6 formularioFooter" style="padding: 10px;">
+          <p style="margin-top: 10px;font-weight: bold; font-size: 12px;">Instituto Federal de Educação Ciências e
+            Tecnologia do Rio Grande do Norte</p>
+          <small>Câmpus Natal Zona Norte</small>
+          <hr>
+          <p style="font-size: 12px;"><b>Compilação do site</b> <br>Amanda Paula, Carlos Vinícius, Davi Sansão, Heloisa
+            Ramalho, José Mateus, Júlio Cesar e Raphael Ramos</p>
+  
+          <p style="font-size: 12px;"><b>Conteúdo</b><br>Todos os que foram envolvidos do segundo periodo acadêmico
+            (2017) dos cursos técnicos de Comércio, Eletrônica e Informática para Internet.</p>
+        </div>
+      </div>
+      <!-- Linha 3 Copyright -->
+      <div class="row text-center" style="background: #09111d ;padding-top: 10px;padding-bottom: 10px;">
+        <div class="col-sm-12">
+          <span style="color: #DCDCE2;">Município Sustentável &copy Geografia </span>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
